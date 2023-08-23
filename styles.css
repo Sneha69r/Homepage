@@ -1,0 +1,146 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    border-radius: 15px;
+    border: 10px solid white;
+    font-family: 'Charm', cursive;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+   
+}
+
+.top {
+
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 13%;
+    
+
+}
+
+
+.title {
+
+    background-color: #457B9D;
+
+    margin: 60px 0px 10px 0px;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.describe {
+
+    background-color: #1D3557;
+    margin: 0px 50px 60px 50px;
+    border-radius: 6px;
+    padding: 5px 10px;
+
+}
+
+.logo-img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+
+.middle {
+
+    background-color: #F1FAEE;
+    padding: 10px;
+    color: #1D3557;
+
+
+}
+
+.mid-header {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.desc {
+
+    margin: 20px;
+
+}
+
+.txt {
+    margin: 20px;
+}
+
+.bottom {
+
+    width: 400px;
+    background-color: #A8DADC;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 40px auto;
+    color: #1D3557;
+    border-bottom: 10px solid #1D3557;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.per-pic {
+
+    width: 150px;
+    border: 10px solid #006494;
+    border-radius: 15px;
+
+
+
+
+}
+
+.para {
+
+    margin: 20px 15px;
+    color: #457B9D;
+    font-style: italic;
+} 
+
+
+
+
+
+
+
+@media (min-width:136px) and (max-width: 460px) {
+    .mid-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom{
+       
+      
+        width:80%;
+        height: auto;
+        /* font-size: 13px; */
+       
+ 
+    }
+    .per-pic{
+        width: 44px;
+       
+    }
+}
+
